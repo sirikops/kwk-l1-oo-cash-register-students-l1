@@ -1,5 +1,4 @@
-
-describe 'AmazonTransaction' do
+ describe 'AmazonTransaction' do
   let(:amazon_transaction) { AmazonTransaction.new }
   let(:amazon_transaction_with_discount) { AmazonTransaction.new(20) }
 
